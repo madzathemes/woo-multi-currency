@@ -106,33 +106,13 @@
 }
 
 /*Shortcode garenal*/
-.woo-multi-currency.shortcode {
-
-}
-
-.woo-multi-currency.shortcode img {
-	vertical-align: middle;
-	height: 24px;
-	width: 24px;
-	margin: 0;
-	display: inline-block;
-	padding: 0;
-}
-.woo-multi-currency.shortcode.flag-large img {
-	width: 64px;
-	height: auto;
-}
-
-.woo-multi-currency.shortcode .wmc-currency {
-
-}
 
 .woo-multi-currency.shortcode .wmc-currency a {
 	text-decoration: none !important;
 	box-shadow: none;
 	margin: 0;
-	padding: 0;
-
+	padding: 10px 13px;
+	display: block;
 }
 
 /*Layout 2 - Plain Vertical*/
@@ -145,10 +125,6 @@
 .woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper {
 
 	position: relative;
-}
-
-.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper .wmc-sub-currency .wmc-currency {
-	padding: 8px 13px;
 }
 .woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency {
 	padding: 20px 0px 10px;
