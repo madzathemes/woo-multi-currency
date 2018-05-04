@@ -1,0 +1,189 @@
+/*Sidebar*/
+.woo-multi-currency.wmc-sidebar {
+	position: fixed;
+	z-index: 9999;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	bottom: 30%;
+
+}
+
+.woo-multi-currency.wmc-sidebar .wmc-title {
+	text-align: center;
+	width: 100%;
+	display: none;
+	color: #fff;
+	font: 300 normal 16px Arial;
+	margin: 0;
+	text-transform: uppercase;
+	background: #000000;
+	padding: 16px 0;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+}
+
+.woo-multi-currency.wmc-sidebar:hover .wmc-title {
+	display: block;
+
+}
+
+/*Style 1*/
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies {
+
+}
+
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies .wmc-currency {
+	background: #000000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 4px;
+	width: 250px;
+	z-index: 1000;
+	font: normal normal 10px Arial;
+	margin: 2px 0 0;
+	transition: all .25s ease;
+	position: relative;
+	cursor: pointer;
+}
+
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies .wmc-currency.active {
+	background: #f78080;
+}
+
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies .wmc-currency:hover {
+	background: #f78080;
+}
+
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies .wmc-currency span {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 43px;
+	vertical-align: top;
+	width: 45px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.woo-multi-currency.wmc-sidebar.style-1 .wmc-list-currencies .wmc-currency a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 43px;
+	vertical-align: top;
+	display: inline-block;
+	width: 190px;
+	box-sizing: border-box;
+}
+
+/*Position*/
+
+/*Right*/
+.woo-multi-currency.wmc-sidebar.right {
+	right: -202px;
+}
+
+.woo-multi-currency.wmc-sidebar.right:hover {
+	right: 0;
+}
+
+/*Left*/
+.woo-multi-currency.wmc-sidebar.left {
+	left: -205px;
+}
+
+.woo-multi-currency.wmc-sidebar.left:hover {
+	left: 0;
+}
+
+.woo-multi-currency.wmc-sidebar.left .wmc-list-currencies .wmc-currency span {
+	display: inline-block;
+	float: right;
+}
+
+/*Shortcode garenal*/
+.woo-multi-currency.shortcode {
+
+}
+
+.woo-multi-currency.shortcode img {
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+}
+.woo-multi-currency.shortcode.flag-large img {
+	width: 64px;
+	height: auto;
+}
+
+.woo-multi-currency.shortcode .wmc-currency {
+
+}
+
+.woo-multi-currency.shortcode .wmc-currency a {
+	text-decoration: none !important;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+/*Layout 2 - Plain Vertical*/
+
+.woo-multi-currency.shortcode.plain-vertical {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper {
+
+	position: relative;
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper .wmc-sub-currency .wmc-currency {
+	padding: 8px 13px;
+}
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency {
+	padding: 20px 0px;
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency::after {
+	content: '\e905';
+	font: normal normal normal 14px LiamDecoFonts;
+	top: 2px;
+	position: relative;
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency {
+	display: block;
+	position: relative;
+	background: #fff;
+	color: #212121;
+	font-size: 14px;
+
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper .wmc-sub-currency {
+	position: absolute;
+	top: 100%;
+	width: 200px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	display: none;
+	right: 0px;
+}
+
+.woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper:hover .wmc-sub-currency {
+	display: block;
+}
