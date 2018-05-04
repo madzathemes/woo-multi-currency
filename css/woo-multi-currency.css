@@ -151,7 +151,7 @@
 	padding: 8px 13px;
 }
 .woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency {
-	padding: 20px 0px;
+	padding: 20px 0px 10px;
 }
 
 .woo-multi-currency.shortcode.plain-vertical .wmc-currency-wrapper span.wmc-current-currency::after {
