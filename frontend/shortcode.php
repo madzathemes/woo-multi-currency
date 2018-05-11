@@ -312,7 +312,7 @@ class WOOMULTI_CURRENCY_F_Frontend_Shortcode {
 		<div class="woo-multi-currency shortcode plain-vertical layout5  <?php echo esc_attr( $class ) ?>">
 			<div class="wmc-currency-wrapper">
 				<span class="wmc-current-currency">
-					<span class="flags flags-<?php echo $country['code']; ?>"><img width="30" height="20" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-original="<?php echo get_template_directory_uri(); ?>/assets/images/flag_<?php echo $country['code']; ?>.png"/></span><?php echo esc_html( $current_currency ) ?>
+					<span class="flags lazy flags-<?php echo $country['code']; ?>" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/currency-flags.png')"></span><?php echo esc_html( $current_currency ) ?>
 				</span>
 				<div class="wmc-sub-currency">
 					<?php foreach ( $links as $k => $link ) {
