@@ -327,7 +327,7 @@ class WOOMULTI_CURRENCY_F_Frontend_Shortcode {
 
 						?>
 						<div class="wmc-currency <?php echo esc_attr( $class ) ?>">
-							<a title="<?php echo esc_attr( $country['name'] ) ?>" href="<?php echo $link ?>">
+							<a title="<?php echo esc_attr( $country['name'] ) ?>" href="<?php echo $link ?>" rel="nofollow">
 								<span class="flags flags-<?php echo $country['code']; ?>" data-bg="<?php echo get_template_directory_uri(); ?>/assets/images/currency-flags.png"></span>
 								<span>
 									<?php echo esc_html( $country['name'] ) ?>
